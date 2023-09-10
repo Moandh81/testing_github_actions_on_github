@@ -37,7 +37,7 @@ jobs:
 
   
   container-test-job:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     container-test-job:
       image: node:14.16
       env:
